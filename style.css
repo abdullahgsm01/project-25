@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&display=swap');
+body,*{
+      font-family: 'League Spartan', sans-serif;
+}
+p{
+	color: #6b7693;
+}
+.master-btn {
+  background-color:#0d6efd;
+  border: 1px solid #fff;
+	padding: .7rem 3rem;
+	border-radius: 30px;
+	font-weight: 600;
+	position: relative;
+	overflow:hidden;
+	z-index: 1;
+  color: #fff;
+}
+.master-btn::after{
+	position: absolute;
+	content: "";
+	left:0;
+	top: 0;
+	width: 0;
+	height: 100%;
+	background-color:#0d6efd;
+	transition:.4s;
+	z-index: -9;
+  color: #fff!important;
+  }
+  .master-btn:hover::after{
+	 width: 100%; 
+  }
+  .master-btn:hover{
+    color: #fff !important;
+  }
+.white-btn{
+  border: 1px solid #fff;
+  border-radius:30px;
+  padding: .7rem 3rem;
+	background:#fff ;
+	font-weight: 600;
+	position: relative;
+	overflow:hidden;
+	z-index: 1;
+  color: #456eec;
+  
+}
+.white-btn::after{
+	position: absolute;
+	content: "";
+	left:0;
+	top: 0;
+	width: 0;
+	height: 100%;
+	background-color:#0d6efd;
+	transition:.4s;
+	z-index: -9;
+  color: #fff!important;
+}
+.white-btn:hover::after{
+  width:100%;
+}
+.white-btn:hover{
+  color: #fff !important;
+}
+  /* pricing-title area start */
+  .title-content h4 {
+	color: #7193ef;
+	font-size: 1.1rem;
+}
+.pricing-area{
+      background-color: #f6f9fc;
+  }
+.title-content h2 {
+	font-weight: bold;
+	margin-bottom: -6px;
+}
+  .title-content span{
+      background:#456eec;
+      display: inline-block;
+      height:2px;
+      width:40px;
+      transition:all 0.5s ease;
+  }
+  .title-content p{
+      color: #96979b;
+  }
+  /* hover */
+  .pricing-item:hover .price h4 {
+    color: #fff !important;
+  }
+  .pricing-item:hover .price h2 {
+    color: #fff;
+  }
+  .pricing-item:hover .price-content ul li {
+    color: #fff !important;
+  }
+  .pricing-item:hover {
+    background: #0d6efd;
+  }
+  .pricing-item:hover .master-btn{
+    background:#fff;
+    color:blue;
+  }
+  .pricing-item{
+      background:#fff;
+      margin: 1rem;
+      padding:2rem 0;
+      transition:all 0.5s ease;
+
+  }
+  .pricing-item span{
+      display: inline-block;
+      background:#ededed;
+      height:2px;
+      width: 8rem;
+      margin-bottom: 1rem;
+  }
+  .price h4 {
+	color: #555;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+	font-size: 1.3rem;
+  transition:all 0.5s ease-in-out;
+}
+.price h2 {
+	font-size: 3rem;
+	margin-bottom: 3rem;
+  transition:all 0.5s ease;
+}
+.price-content{}
+.price-content ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 1.5rem;
+  transition:all 0.5s ease;
+}
+.price-content ul li{
+      color: #a6b5c0;
+      margin-bottom:.6rem;
+      font-size:1.2rem;
+}
+
+ 
+  /* pricing-title area End */
+
+  /* buy now area start */
+  .buy-now-bg {
+	background: rgba(13,110,253,1) url(img/free-bg.jpg) no-repeat center center;
+	background-blend-mode: overlay;
+}
+  .buy-now-content{
+      height:80vh;
+      display:flex;
+      align-items:center;
+  }
+  .content-wrap h5{
+    font-size: 1.1rem;
+  }
+  .content-wrap h2{
+    font-weight: bold;
+  }
+  .content-wrap span{
+    background:#fff;
+    height:2px;
+    width:50px;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .content-wrap p{
+    color: #fff;
+  }
+  /* buy now area End */
+
+  /* sign-up-area start */
+  .sign-up-wrap {
+    background-color: #0d6efd;
+    margin-right: 1.5rem;
+    padding: 3rem;
+  }
+  .sign-up-area{
+    background-color:  #f8f9fa;
+  }
+  .sign-up-content p {
+    font-size: 20px;
+  }
+  .input-email input {
+    width: 22rem;
+    border-radius: 30px;
+    padding: 4px 20px;
+    margin-right: 3rem;
+    margin-top: 0px;
+    border: none;
+  }
+  .get-start {
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 1px 3px 16px 4px #dfe1e2;
+  }
+  .get-start p {
+    color: #3a3737;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom:5rem;
+  }
+  /* sign-up-area End */
